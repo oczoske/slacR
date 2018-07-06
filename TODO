@@ -1,0 +1,5 @@
+* fit.spectrum: Make output more manageable, avoid duplication of,
+                e.g., the spectrum, noise, etc.
+		Give the output a class "fit"
+
+* plot.fit: Visualise the fit, including the polynomials.

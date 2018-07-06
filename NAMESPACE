@@ -1,0 +1,17 @@
+export(binney, bin.cube, build.kernel, c.light, combine.fits, convert.mask,
+       convolve.spectrum, convolve.spectrum.velocity,
+       convolve.spectrum.Angstrom, fit.cube, fit.spectrum,
+       gauss.hermite, H.3, H.4,
+       merit.contours, merit.function,
+       GH.moments, lambdaR, OII.fit, OII.model, OII.model.map,
+       plot.kinfit, plot.kinmap, plot.spectrum,
+       prepare.cube, prepare.ELODIE, prepare.ESI, prepare.IndoUS,
+       prepare.kinmap, prepare.spectrum, prepare.template,
+       resample.spectrum,
+       spadd, spsub, spmult, spdiv, sarith,
+       trim.spectrum, write.fits, write.kinmap)
+
+S3method(plot, spectrum)
+S3method(plot, kinmap)
+S3method(plot, kinfit)
+S3method(print, kinmap)

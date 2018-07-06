@@ -1,0 +1,13 @@
+Package: slacR
+Type: Package
+Title: R-package to measure v and sigma from VIMOS IFU cubes
+Version: 3.1.7
+Date: 2014-12-13
+Author: Oliver Czoske
+Maintainer: Oliver Czoske <oliver.czoske@univie.ac.at>
+Description: This package contains functions that read a IFS data cube
+    (as prepared with VIPGI) and measures v and sigma through a direct
+    pixel fitting method. Version 3 uses the modelling approach of
+    Kelson et al. (2000) and incorporates also Gauss-Hermite modelling
+    to order 4. 
+License: GPL
